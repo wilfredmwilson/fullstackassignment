@@ -4,8 +4,6 @@
 
 This project allows users to upload PDF files, select specific pages from the uploaded PDF, and extract those pages to create a new PDF for download.
 
-## Table of Contents
-
 ### Features
 PDF Upload: Users can upload PDF files from their device.
 Page Selection: After uploading, users can select specific pages from the PDF using checkboxes.
