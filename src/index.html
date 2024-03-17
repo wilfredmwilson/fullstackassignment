@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PDF Extraction</title>
+  <link rel="stylesheet" href="./view/style.css">
+</head>
+<body>
+  <h1>PDF Extraction</h1>
+  <form id="pdfUploadForm" enctype="multipart/form-data" action="/upload" method="POST">
+    <input type="file" id="pdfFile" accept=".pdf" required>
+    <button type="submit">Upload PDF</button>
+  </form>
+  <iframe id="pdfViewer" style="display: none;" width="30%" height="400px" frameborder="0"></iframe>
+  
+  <div id="pageContainer" style="display:none;"></div>
+  <button id="extractPagesBtn" style="display:none;">Extract Selected Pages</button>
+  <div id="downloadLink" style="display:none;"></div>
+
+  <script src="./script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
