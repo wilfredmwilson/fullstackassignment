@@ -1,33 +1,33 @@
-#PDF Extraction Project
+# PDF Extraction Project
 
 
 
 This project allows users to upload PDF files, select specific pages from the uploaded PDF, and extract those pages to create a new PDF for download.
 
-Table of Contents
+## Table of Contents
 
-Features
+### Features
 PDF Upload: Users can upload PDF files from their device.
 Page Selection: After uploading, users can select specific pages from the PDF using checkboxes.
 PDF Extraction: Users can extract selected pages to create a new PDF.
 Download: The newly extracted PDF can be downloaded by the user.
 
-Technologies Used
+### Technologies Used
 Express.js: Used to build the backend server.
 Multer: Middleware for handling file uploads.
 pdf-lib: Library for working with PDF files.
 Body-parser: Middleware for parsing request bodies.
 HTML, CSS, JavaScript: Frontend components for user interaction.
 
-Clone the repository:
+### Clone the repository:
 git clone <repository_url>
 cd <repository_directory>
 
 
-Install dependencies:
+### Install dependencies:
 npm install
 
-Start the server:
+### Start the server:
 node server.js
 
 
