@@ -38,7 +38,8 @@ Once the extraction is complete, the new PDF will be downloaded automatically.
 
 
 
-#Screen Shots
+# Screen Shots
+
 ![1](https://github.com/wilfredmwilson/fullstackassignment/assets/106466943/7023c449-5620-480c-beb8-d291393c7a9f)
 ![2](https://github.com/wilfredmwilson/fullstackassignment/assets/106466943/7f75dd84-b530-471e-ad58-a3a21e89205c)
 ![3](https://github.com/wilfredmwilson/fullstackassignment/assets/106466943/f1d9aaa8-6c1a-4089-a14e-a08308a92c3d)
